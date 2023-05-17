@@ -1,1 +1,0 @@
-no es ningún proyecto formal, solo lo uso como pruebas, borradores de éstas, sobre el que tener un proyecto de aprendizaje en vsc junto con html, css y js.
