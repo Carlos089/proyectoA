@@ -4,8 +4,7 @@ body {
 
 article {
     padding:4%;
-    /* text-transform: capitalize; */
-    border: 3px solid yellow;
+    border: 3px solid violet;
     font-weight:bold;
     display: flex;
     justify-content:space-between;
@@ -13,19 +12,7 @@ article {
 }
 
 input {
-    width:60%;
-    border: 5px solid blue;
-    padding:2%;
-}
-
-label {
-    color:red;
-}
-
-button {
-    color:green;
-    font-weight:bolder;
-    margin-left:5px;
+    margin-right: 80%;
 }
 
 img {
