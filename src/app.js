@@ -1,7 +1,12 @@
 // Laboratorio de módulo 3 de iniciación a JavaScript
-//EJERCICIO PRODUCTO:
+//EJERCICIO PRODUCTO: (elegir entre tipo libro, alimentacion u otros)
 console.log("EJERCICIO PRODUCTO:")
-const product = { count: 23, price: 5, type: "alimentacion" }
+const product = { count: "", price: "", type: "" }
+product.count = prompt("Introduce el número de artículos")
+product.price = prompt("Introduce el precio de los artículos")
+product.type = prompt("Introduce el tipo de artículo, de entre: libro alimentacion u otro")
+
+
 
 const total = product.count <= 0 ? 0 : product.count * product.price
 console.log("Total sin IVA:", total, "€.")
@@ -21,7 +26,11 @@ console.log("Precio con IVA:", totalMasIVA)
 
 //EJERCICIO NÓMINA:
 console.log("EJERCICIO NÓMINA 2023:")
-const empleado = { bruto: 44000, hijos: 2, pagas: 14 }
+const empleado = { bruto: "", hijos: "", pagas: "" }
+empleado.bruto = prompt("Introduce tu salario anual bruto")
+empleado.hijos = prompt("Introduce el número de hijos")
+empleado.pagas = prompt("Introduce el número de pagas")
+
 
 
 if (empleado.bruto < 12450) {
