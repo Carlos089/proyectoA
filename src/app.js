@@ -1,5 +1,5 @@
 // Laboratorio de módulo 3 de iniciación a JavaScript
-//EJERCICIO PRODUCTO: (elegir entre tipo libro, alimentacion u otros)
+//EJERCICIO PRODUCTO: (elegir entre tipo libro, alimentacion u otros) (AVANZADO en proyectoD)
 console.log("EJERCICIO PRODUCTO:")
 const product = { count: "", price: "", type: "" }
 product.count = prompt("Introduce el número de artículos")
