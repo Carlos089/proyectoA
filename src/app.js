@@ -1,11 +1,10 @@
 // Laboratorio de módulo 3 de iniciación a JavaScript
-//EJERCICIO PRODUCTO: (elegir entre tipo libro, alimentacion u otros) (AVANZADO en proyectoD)
+//EJERCICIO PRODUCTO: (elegir entre tipo libro, alimentacion u otros)
 console.log("EJERCICIO PRODUCTO:")
 const product = { count: "", price: "", type: "" }
 product.count = prompt("Introduce el número de artículos")
 product.price = prompt("Introduce el precio de los artículos")
 product.type = prompt("Introduce el tipo de artículo, de entre: libro alimentacion u otro")
-
 
 
 const total = product.count <= 0 ? 0 : product.count * product.price
@@ -21,6 +20,32 @@ console.log("IVA:", IVA)
 
 let totalMasIVA = total + IVA
 console.log("Precio con IVA:", totalMasIVA)
+
+
+// CON USO DE FUNCIONES
+console.log("CON EL USO DE FUNCIONES:")
+function getTotalVat() {
+    return product.count > 0 ? productTotal = product.count * product.price : 0;
+}
+getTotalVat()
+
+let productVat
+switch (product.type) {
+    case "alimentacion": productVat = 0.10 * productTotal; break;
+    case "libro": productVat = 0.04 * productTotal; break;
+    default: productVat = 0.21 * productTotal; break;
+}
+
+function getVat() {
+    console.log("IVA:", productVat)
+}
+getVat()
+
+function getFinal() {
+    console.log("Precio con IVA:", productVat + productTotal)
+}
+getFinal()
+
 
 
 
