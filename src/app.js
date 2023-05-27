@@ -1,6 +1,6 @@
 // Laboratorio de módulo 3 de iniciación a JavaScript
 //EJERCICIO PRODUCTO: (elegir entre tipo libro, alimentacion u otros)
-console.log("EJERCICIO PRODUCTO:")
+console.log(":::::::EJERCICIO PRODUCTO::::::::::")
 const product = { count: "", price: "", type: "" }
 product.count = prompt("Introduce el número de artículos")
 product.price = prompt("Introduce el precio de los artículos")
@@ -23,7 +23,7 @@ console.log("Precio con IVA:", totalMasIVA)
 
 
 // CON USO DE FUNCIONES
-console.log("CON EL USO DE FUNCIONES:")
+console.log(":::::::::::EJERCICIO PRODUCTO MEDIANTE FUNCIONES::::::::::::")
 function getTotalVat() {
     return product.count > 0 ? productTotal = product.count * product.price : 0;
 }
@@ -50,7 +50,7 @@ getFinal()
 
 
 //EJERCICIO NÓMINA:
-console.log("EJERCICIO NÓMINA 2023:")
+console.log("::::::::::EJERCICIO NÓMINA 2023:::::::::::::::::")
 const empleado = { bruto: "", hijos: "", pagas: "" }
 empleado.bruto = prompt("Introduce tu salario anual bruto")
 empleado.hijos = prompt("Introduce el número de hijos")
